@@ -1,0 +1,112 @@
+$accentColor: #5379f61a;
+$primaryColor: #5379F6;
+$white:#ffffff;
+$gray: #958B8B;
+$black: #000000;
+$red:#ff0000;
+$hover-state: pointer;
+
+*, ::before,::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    font-family: "Poppins";
+    
+
+    .bg-light {
+        background-color:$accentColor;
+    }
+
+
+    .mainnav {      
+      display: flex;
+      justify-content: center;
+      background-color:$accentColor;
+        .navbar{
+            width: 100%;
+        }
+        .navbar-light .navbar-nav .nav-link {
+       
+            font-weight: 600;
+            color: rgba(0, 0, 0, 0.863);
+        }
+        .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+            color:$primaryColor;
+            font-weight: bold;
+        }
+    }
+
+    .navbar-brand{
+        font-weight: bold;
+    }
+
+  .container .row .col {
+      display: flex;
+      height: 80vh;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 1.5rem;
+   
+      .header {
+          line-height: .1rem;
+          padding-bottom: 1rem;
+          h4 {
+              color: $gray;
+          }
+      }
+
+      .callToAction{
+        display: flex;
+        align-items: center;
+        height: auto;
+      
+        .explore {
+            margin-bottom: 0px;
+            font-weight: bold;
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            color: $gray;
+            text-decoration-color: $gray;
+        }
+         button {
+          margin-right: 1.8rem;
+          width: 10rem;
+          color: #fff;
+          background-color: $primaryColor!important;
+      }  
+      }
+
+      .banner-img{
+          padding-top: 1rem;
+          width: auto;
+          height: auto;
+
+      }
+
+  }
+  .info{
+      background-color: $primaryColor;
+      height: auto;
+      width: 100%;
+      color: $white;
+  }
+  .about{
+    background-color: $white;
+    height: 100vh;
+    width: 100%;
+}
+footer{
+   width: 100%;
+   text-align: center;
+   padding: 1rem;
+   background-color: $gray;
+   color: #000;
+}
+}
