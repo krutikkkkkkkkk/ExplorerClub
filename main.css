@@ -144,10 +144,20 @@ box-shadow:  20px 20px 41px #2b4189,
 
 
 body footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3.5rem;
   width: 100%;
-  text-align: center;
+  text-align: start;
   padding: 1rem;
   background-color: #958B8B;
   color: #000;
 }
 /*# sourceMappingURL=main.css.map */
+
+body footer a img{
+  
+  height: 1.8rem;
+  width: 100%;
+}
