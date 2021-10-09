@@ -110,17 +110,38 @@ body .container .row .col .banner-img {
 }
 
 body .info {
-  background-color: #5379F6;
-  height: auto;
+  background-color: #4b72f1ea;
+  height: 100vh;
   width: 100%;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 body .about {
-  background-color: #ffffff;
+  background-color: #f3e7e7;
   height: 100vh;
   width: 100%;
 }
+
+body .info .container1{
+  background-color: #4b72f1ea;
+  border-radius: 1.6rem;
+  height: 22rem;
+  width: 18rem;
+  margin: 0 6rem;
+  text-align: center;
+  padding: 172px 0 0px;
+  border-radius: 30px;
+background: #4b72f1;
+box-shadow:  20px 20px 41px #2b4189,
+             -20px -20px 41px #6ba3ff;
+}
+
+
+
 
 body footer {
   width: 100%;
