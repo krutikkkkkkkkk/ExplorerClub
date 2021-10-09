@@ -8,6 +8,24 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <link rel="stylesheet" href="main.css">
+    <script src="index.js" lang="javascript" defer></script>
+    <style>
+    .column {
+   
+      padding-left: 150px;
+      
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 500px; /* Should be removed. Only for demonstration */
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }</style>
 </head>
 <body>
  
@@ -66,18 +84,30 @@
 
 <div class="container1">
   <h4>Events</h4>
+  <span class="btn1" style="color: white;">Check out </span>
 </div>
-<div class="container1">
+<div class="container2">
   <h4>Technical</h4>
+  <span class="btn2" style="color: white;">Check out </span>
 </div>
-<div class="container1">
+<div class="container3">
   <h4>Non-Technical</h4>
+  <span class="btn3" style="color: white;">Check out </span>
 </div>
 
        
     </section>
 
     <section class="about">
+      <div class="row">
+        <div class="column" style="background-color:white;">
+          <img src="img/hero-img.svg" alt="">
+        </div>
+        <div class="column" style="background-color:white;">
+          <h3 style="color: black;">Check out the</h3><a href="https://forms.gle/iFcUKoDBY8f6iwuTA" target="_blank" > <h2 style="color: #5379F6; font-weight: bold;">Registerion</h2> </a> <h3>link</h3> 
+          
+        </div>
+      </div>
         &nbsp;
   </section>
 
