@@ -36,13 +36,10 @@ body {
        
             font-weight: 600;
             color: rgba(0, 0, 0, 0.863);
-            animation: slideText 1.5s ease-in ;
-
         }
         .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
             color:$primaryColor;
             font-weight: bold;
-            animation: slideText 1.5s ease-in ;
         }
     }
 
@@ -83,8 +80,6 @@ body {
           width: 10rem;
           color: #fff;
           background-color: $primaryColor!important;
-          animation: slideButton 1.5s ease-in;
-          
       }  
       }
 
@@ -93,9 +88,8 @@ body {
           padding-top: 1rem;
           width: auto;
           height: auto;
-          animation: slideImage 1.5s ease-in ;
-      }
 
+      }
 
   }
   .info{
@@ -119,12 +113,11 @@ body {
       background-color: $primaryColor;
       height: 20rem;
       width: 16rem;
-      box-shadow:  7px 7px 14px #405dbd,
-      -7px -7px 14px #6695ff;
       border-radius: 1.6rem;
       margin: 0 3rem;
       margin: 0 3rem;
-      
+      box-shadow:  7px 7px 14px #405dbd,
+        -7px -7px 14px #6695ff;
       text-align: center;
       padding: 100px 0 0px;  
         .btn1{
@@ -180,14 +173,7 @@ body {
          justify-content:center;
          align-items:center;
        }
-       
      }
-     .container1:hover{
-        box-shadow:  7px 7px 14px #6695ff,
-        -7px -7px 14px #405dbd;
-        
-      }
-       
      .container2 {
       display: flex;
       flex-direction: column;
@@ -255,11 +241,6 @@ body {
        align-items:center;
      }
    }
-   .container2:hover{
-    box-shadow:  7px 7px 14px #6695ff,
-    -7px -7px 14px #405dbd;
-    
-  }
    .container3 {
     display: flex;
     flex-direction: column;
@@ -327,11 +308,6 @@ body {
      align-items:center;
    }
  }
- .container3:hover{
-  box-shadow:  7px 7px 14px #6695ff,
-  -7px -7px 14px #405dbd;
-  
-}
   }
    
 
@@ -362,129 +338,4 @@ footer a img{
   height: 1.8rem;
   width: 100%;
 }
-}
-
-@keyframes slideImage{
-  0%{
-    transform: skewX(20deg) translateX(800px);
-  }
-  25%{
-    transform: skewX(15deg) translateX(800px);
-  }
-  50%{
-    transform: skewX(15deg) translate(800px);
-  }
-
-  100%{
-    transform: skew(0deg);
-  }
-}
-
-@keyframes slideButton{
-  0%{
-    transform: skewX(20deg) translateX(-400px);
-  }
-  25%{
-    transform: skewX(15deg) translateX(-400px);
-  }
-  50%{
-    transform: skewX(15deg) translate(-400px);
-  }
-
-  100%{
-    transform: skew(0deg);
-  }
-}
-@keyframes slideText{
-  0%{
-    transform: skewX(15deg) translateX(400px);
-  }
-  25%{
-    transform: skewX(15deg) translateX(400px);
-  }
-  50%{
-    transform: skewX(15deg) translate(400px);
-  }
-
-  100%{
-    transform: skew(0deg);
-  }
-}
-
-@keyframes clockwise {
-  0% {
-    top: -5px;
-    left: 0;
-  }
-  12% {
-    top: -2px;
-    left: 2px;
-  }
-  25% {
-    top: 0;
-    left: 5px;    
-  }
-  37% {
-    top: 2px;
-    left: 2px;
-  }
-  50% {
-    top: 5px;
-    left: 0;    
-  }
-  62% {
-    top: 2px;
-    left: -2px;
-  }
-  75% {
-    top: 0;
-    left: -5px;
-  }
-  87% {
-    top: -2px;
-    left: -2px;
-  }
-  100% {
-    top: -5px;
-    left: 0;    
-  }
-}
-
-@keyframes counterclockwise {
-  0% {
-    top: -5px;
-    right: 0;
-  }
-  12% {
-    top: -2px;
-    right: 2px;
-  }
-  25% {
-    top: 0;
-    right: 5px;    
-  }
-  37% {
-    top: 2px;
-    right: 2px;
-  }
-  50% {
-    top: 5px;
-    right: 0;    
-  }
-  62% {
-    top: 2px;
-    right: -2px;
-  }
-  75% {
-    top: 0;
-    right: -5px;
-  }
-  87% {
-    top: -2px;
-    right: -2px;
-  }
-  100% {
-    top: -5px;
-    right: 0;    
-  }
 }
